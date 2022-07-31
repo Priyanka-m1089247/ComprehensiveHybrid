@@ -1,0 +1,7 @@
+10:19:45.525 [main] INFO  com.utilities.baseClass - Clicked on sign now
+10:19:45.550 [main] INFO  com.utilities.baseClass - Window is switched to child
+10:19:49.370 [main] INFO  com.utilities.baseClass - Entered the ValidSignUpInput
+10:19:49.435 [main] INFO  com.utilities.baseClass - Clicked on Create an Account button
+10:19:52.575 [main] INFO  com.utilities.baseClass - initialized driver
+10:19:58.723 [main] INFO  com.utilities.baseClass - HomePage is opened
+10:19:59.232 [main] INFO  com.utilities.baseClass - Clicked on Whatsnew

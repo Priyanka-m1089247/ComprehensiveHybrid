@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-30T10:17:39 GMT-08:00" name="Default suite" finished-at="2022-07-30T10:19:59 GMT-08:00" duration-ms="140426">
+    <groups>
+    </groups>
+    <test started-at="2022-07-30T10:17:39 GMT-08:00" name="Default test" finished-at="2022-07-30T10:19:59 GMT-08:00" duration-ms="140426">
+      <class name="com.runner.Runner">
+        <test-method is-config="true" signature="Extent()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:17:39 GMT-08:00" name="Extent" finished-at="2022-07-30T10:17:39 GMT-08:00" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:17:39 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:17:49 GMT-08:00" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="BBB()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:17:49 GMT-08:00" name="BBB" finished-at="2022-07-30T10:17:50 GMT-08:00" duration-ms="1539" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.runner.Runner.BBB(Runner.java:173)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BBB -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:17:50 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:17:51 GMT-08:00" duration-ms="480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BBB status=FAILURE method=Runner.BBB()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:17:51 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:18:00 GMT-08:00" duration-ms="9289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="Bounce()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:00 GMT-08:00" name="Bounce" finished-at="2022-07-30T10:18:07 GMT-08:00" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bounce -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:07 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:18:07 GMT-08:00" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bounce status=SUCCESS method=Runner.Bounce()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:07 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:18:16 GMT-08:00" duration-ms="9042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="InValidLogin()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:16 GMT-08:00" name="InValidLogin" finished-at="2022-07-30T10:18:22 GMT-08:00" duration-ms="5666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLogin -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:22 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:18:22 GMT-08:00" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidLogin status=SUCCESS method=Runner.InValidLogin()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:22 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:18:32 GMT-08:00" duration-ms="9631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="InValidSignup()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:32 GMT-08:00" name="InValidSignup" finished-at="2022-07-30T10:18:36 GMT-08:00" duration-ms="3956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidSignup -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:36 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:18:36 GMT-08:00" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidSignup status=SUCCESS method=Runner.InValidSignup()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:36 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:18:46 GMT-08:00" duration-ms="9425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="PandG()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:46 GMT-08:00" name="PandG" finished-at="2022-07-30T10:18:55 GMT-08:00" duration-ms="9070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PandG -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:55 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:18:55 GMT-08:00" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PandG status=SUCCESS method=Runner.PandG()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:18:55 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:19:04 GMT-08:00" duration-ms="8918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="Search()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:04 GMT-08:00" name="Search" finished-at="2022-07-30T10:19:08 GMT-08:00" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:08 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:19:08 GMT-08:00" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=Runner.Search()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:08 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:19:17 GMT-08:00" duration-ms="9349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="ShopProductsFunctionality()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:17 GMT-08:00" name="ShopProductsFunctionality" finished-at="2022-07-30T10:19:20 GMT-08:00" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopProductsFunctionality -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:20 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:19:20 GMT-08:00" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShopProductsFunctionality status=SUCCESS method=Runner.ShopProductsFunctionality()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:20 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:19:29 GMT-08:00" duration-ms="9440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="ValidLogin()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:29 GMT-08:00" name="ValidLogin" finished-at="2022-07-30T10:19:35 GMT-08:00" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:35 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:19:35 GMT-08:00" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLogin status=SUCCESS method=Runner.ValidLogin()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:35 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:19:44 GMT-08:00" duration-ms="9511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="ValidSignup()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:44 GMT-08:00" name="ValidSignup" finished-at="2022-07-30T10:19:49 GMT-08:00" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSignup -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:49 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:19:49 GMT-08:00" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidSignup status=SUCCESS method=Runner.ValidSignup()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="navigateToLandingPage()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:49 GMT-08:00" name="navigateToLandingPage" finished-at="2022-07-30T10:19:58 GMT-08:00" duration-ms="8940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method signature="WhatsnewFunctionality()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:58 GMT-08:00" name="WhatsnewFunctionality" finished-at="2022-07-30T10:19:59 GMT-08:00" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsnewFunctionality -->
+        <test-method is-config="true" signature="Teardown(org.testng.ITestResult)[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:59 GMT-08:00" name="Teardown" finished-at="2022-07-30T10:19:59 GMT-08:00" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhatsnewFunctionality status=SUCCESS method=Runner.WhatsnewFunctionality()[pri:0, instance:com.runner.Runner@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:com.runner.Runner@38f57b3d]" started-at="2022-07-30T10:19:59 GMT-08:00" name="endreport" finished-at="2022-07-30T10:19:59 GMT-08:00" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
